@@ -1,26 +1,39 @@
-# @tammergard/prettier-config
+# @tammergard/tsconfig
 
-A sharable Prettier config with personal preferences.
+A sharable TSconfig with personal preferences.
 
 ## Installation
 
-Install this Prettier config together with its peer dependencies:
+Install this package as a dev dependency.
 
 ```bash
 # npm
-npm install @tammergard/prettier-config prettier --save-dev
+npm install @tammergard/tsconfig --save-dev
 
 # yarn
-yarn add @tammergard/prettier-config prettier --dev
+yarn add @tammergard/tsconfig --dev
 ```
 
 ## Usage
 
-Add the config to your `.prettierrc.js` file:
+Register the config in your `tsconfig.json`:
 
-```js
-module.exports = {
-  ...require("@tammergard/prettier-config"),
+```json
+{
+  "extends": "@tammergard/tsconfig/tsconfig.json"
+}
+```
+
+You can add additional options in your project, which will override the option
+in `@tammergard/tsconfig` if it's defined there.
+
+```json
+{
+  "extends": "@tammergard/tsconfig/tsconfig.json",
+  "compilerOptions": {
+    "strict": false,
+    "baseUrl": "src"
+  }
 }
 ```
 
