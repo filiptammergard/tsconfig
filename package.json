@@ -1,0 +1,48 @@
+{
+  "name": "@tammergard/tsconfig",
+  "version": "0.0.0-development",
+  "description": "A sharable TSconfig with personal preferences",
+  "scripts": {
+    "lint": "eslint .",
+    "prettier": "prettier --write .",
+    "review": "yarn install --frozen-lockfile && yarn lint && yarn prettier"
+  },
+  "devDependencies": {
+    "@tammergard/eslint-config-base": "2.2.0",
+    "@tammergard/prettier-config": "1.4.0",
+    "@tammergard/semantic-release-config-npm": "1.0.0",
+    "eslint": "8.7.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import": "2.25.4",
+    "eslint-plugin-jest": "25.7.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "prettier": "2.5.1",
+    "semantic-release": "19.0.2"
+  },
+  "peerDependencies": {
+    "typescript": "^4.4.0"
+  },
+  "main": "tsconfig.json",
+  "files": [
+    "tsconfig.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filiptammergard/tsconfig.git"
+  },
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "config"
+  ],
+  "author": "Filip Tammergård <filip+npm@tammergard.se> (https://tammergard.se/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/filiptammergard/tsconfig/issues"
+  },
+  "homepage": "https://github.com/filiptammergard/tsconfig#readme"
+}
