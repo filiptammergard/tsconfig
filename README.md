@@ -20,7 +20,7 @@ Register the config in your `tsconfig.json`:
 
 ```json
 {
-  "extends": "@tammergard/tsconfig/tsconfig.json"
+	"extends": "@tammergard/tsconfig/tsconfig.json"
 }
 ```
 
@@ -29,11 +29,11 @@ in `@tammergard/tsconfig` if it's defined there.
 
 ```json
 {
-  "extends": "@tammergard/tsconfig/tsconfig.json",
-  "compilerOptions": {
-    "strict": false,
-    "baseUrl": "src"
-  }
+	"extends": "@tammergard/tsconfig/tsconfig.json",
+	"compilerOptions": {
+		"strict": false,
+		"baseUrl": "src"
+	}
 }
 ```
 
