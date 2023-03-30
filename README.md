@@ -14,7 +14,7 @@ npm install @tammergard/tsconfig --save-dev
 yarn add @tammergard/tsconfig --dev
 
 # pnpm
-pnpm install @tammergard/tsconfig --dev
+pnpm add @tammergard/tsconfig --save-dev
 ```
 
 ## Usage
