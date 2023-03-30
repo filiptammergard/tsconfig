@@ -12,6 +12,9 @@ npm install @tammergard/tsconfig --save-dev
 
 # yarn
 yarn add @tammergard/tsconfig --dev
+
+# pnpm
+pnpm install @tammergard/tsconfig --dev
 ```
 
 ## Usage
@@ -32,7 +35,7 @@ in `@tammergard/tsconfig` if it's defined there.
 	"extends": "@tammergard/tsconfig/tsconfig.json",
 	"compilerOptions": {
 		"strict": false,
-		"baseUrl": "src"
+		"baseUrl": "./src"
 	}
 }
 ```

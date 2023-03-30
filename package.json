@@ -6,8 +6,8 @@
 		"format": "prettier --write .",
 		"format-check": "prettier --check .",
 		"lint": "eslint .",
-		"release": "yarn changeset publish",
-		"review": "yarn install --frozen-lockfile && yarn format-check && yarn lint"
+		"release": "pnpm changeset publish",
+		"review": "pnpm i --frozen-lockfile && pnpm format-check && pnpm lint"
 	},
 	"devDependencies": {
 		"@changesets/cli": "2.26.1",
