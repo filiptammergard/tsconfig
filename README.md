@@ -32,7 +32,7 @@ in `@tammergard/tsconfig` if it's defined there.
 
 ```json
 {
-	"extends": "@tammergard/tsconfig/tsconfig.json",
+	"extends": "@tammergard/tsconfig",
 	"compilerOptions": {
 		"strict": false,
 		"baseUrl": "./src"
