@@ -30,7 +30,11 @@
 		"url": "https://github.com/filiptammergard/tsconfig/issues"
 	},
 	"license": "MIT",
-	"author": "Filip Tammergård <filip+npm@tammergard.se> (https://tammergard.se)",
+	"author": {
+		"name": "Filip Tammergård",
+		"email": "filip+npm@tammergard.se",
+		"url": "https://tammergard.se"
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/filiptammergard/tsconfig.git"
