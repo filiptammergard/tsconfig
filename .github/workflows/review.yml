@@ -17,7 +17,7 @@ jobs:
           node-version: 18
       
       - name: Setup pnpm
-        uses: pnpm/action-setupv3
+        uses: pnpm/action-setup@v3
         with:
           version: 8
 
