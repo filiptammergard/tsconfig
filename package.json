@@ -20,26 +20,26 @@
 	"peerDependencies": {
 		"typescript": "5"
 	},
-	"main": "tsconfig.json",
 	"files": [
 		"tsconfig.json"
 	],
-	"publishConfig": {
-		"access": "public"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/filiptammergard/tsconfig.git"
-	},
+	"main": "tsconfig.json",
 	"keywords": [
 		"tsconfig",
 		"typescript",
 		"config"
 	],
-	"author": "Filip Tammergård <filip+npm@tammergard.se> (https://tammergard.se/)",
-	"license": "MIT",
+	"homepage": "https://github.com/filiptammergard/tsconfig#readme",
 	"bugs": {
 		"url": "https://github.com/filiptammergard/tsconfig/issues"
 	},
-	"homepage": "https://github.com/filiptammergard/tsconfig#readme"
+	"license": "MIT",
+	"author": "Filip Tammergård <filip+npm@tammergard.se> (https://tammergard.se)",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/filiptammergard/tsconfig.git"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
