@@ -23,7 +23,7 @@ Register the config in your `tsconfig.json`:
 
 ```json
 {
-	"extends": "@tammergard/tsconfig/tsconfig.json"
+	"extends": "@tammergard/tsconfig"
 }
 ```
 
