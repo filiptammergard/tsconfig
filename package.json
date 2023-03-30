@@ -5,16 +5,12 @@
 	"scripts": {
 		"format": "prettier --write .",
 		"format-check": "prettier --check .",
-		"lint": "eslint .",
 		"release": "pnpm changeset publish",
-		"review": "pnpm i --frozen-lockfile && pnpm format-check && pnpm lint"
+		"review": "pnpm i --frozen-lockfile && pnpm format-check"
 	},
 	"devDependencies": {
 		"@changesets/cli": "2.26.1",
-		"@tammergard/eslint-config-base": "3.2.0",
 		"@tammergard/prettier-config": "2.0.0",
-		"@tammergard/semantic-release-config-npm": "1.2.0",
-		"eslint": "8.37.0",
 		"prettier": "2.8.7"
 	},
 	"peerDependencies": {
