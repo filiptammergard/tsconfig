@@ -1,5 +1,11 @@
 # @tammergard/tsconfig
 
+## 2.3.0
+
+### Minor Changes
+
+- 02d3aa1: Disable esModuleInterop and enable allowSyntheticDefaultImports for better accuracy.
+
 ## 2.2.0
 
 ### Minor Changes
