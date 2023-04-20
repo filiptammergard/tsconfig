@@ -1,5 +1,11 @@
 # @tammergard/tsconfig
 
+## 2.4.0
+
+### Minor Changes
+
+- f733fb6: Re-enable esModuleInterop.
+
 ## 2.3.0
 
 ### Minor Changes
