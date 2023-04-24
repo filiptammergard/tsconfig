@@ -1,5 +1,11 @@
 # @tammergard/tsconfig
 
+## 2.4.1
+
+### Patch Changes
+
+- a92694d: Publish with provenance.
+
 ## 2.4.0
 
 ### Minor Changes
