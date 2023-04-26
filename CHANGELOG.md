@@ -1,5 +1,11 @@
 # @tammergard/tsconfig
 
+## 2.5.0
+
+### Minor Changes
+
+- 2891af8: Enable verbatimModuleSyntax.
+
 ## 2.4.1
 
 ### Patch Changes
