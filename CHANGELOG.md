@@ -1,5 +1,11 @@
 # @tammergard/tsconfig
 
+## 2.6.0
+
+### Minor Changes
+
+- 402993c: Enable `noErrorTruncation`.
+
 ## 2.5.0
 
 ### Minor Changes
