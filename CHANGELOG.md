@@ -1,5 +1,11 @@
 # @tammergard/tsconfig
 
+## 2.7.0
+
+### Minor Changes
+
+- d58a4e2: Bump target and lib to es2022.
+
 ## 2.6.0
 
 ### Minor Changes
