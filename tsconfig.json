@@ -25,8 +25,8 @@
 
 		// landguage and environment
 		"jsx": "react-jsx",
-		"lib": ["es2021", "dom", "dom.iterable"],
-		"target": "es2021",
+		"lib": ["es2022", "dom", "dom.iterable"],
+		"target": "es2022",
 
 		// output formatting
 		"noErrorTruncation": true,
