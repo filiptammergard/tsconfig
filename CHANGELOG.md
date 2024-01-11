@@ -1,5 +1,11 @@
 # @tammergard/tsconfig
 
+## 2.8.0
+
+### Minor Changes
+
+- ddd3e18: Set moduleDetection to force.
+
 ## 2.7.0
 
 ### Minor Changes
