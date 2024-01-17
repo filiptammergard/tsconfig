@@ -33,6 +33,6 @@
 		"noErrorTruncation": true,
 
 		// completeness
-		"skipLibCheck": true
-	}
+		"skipLibCheck": true,
+	},
 }
