@@ -15,10 +15,10 @@ devDependencies:
     version: 2.27.1
   '@tammergard/prettier-config':
     specifier: 2.1.0
-    version: 2.1.0(prettier@3.2.5)
+    version: 2.1.0(prettier@3.3.1)
   prettier:
-    specifier: 3.2.5
-    version: 3.2.5
+    specifier: 3.3.1
+    version: 3.3.1
 
 packages:
 
@@ -274,12 +274,12 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@tammergard/prettier-config@2.1.0(prettier@3.2.5):
+  /@tammergard/prettier-config@2.1.0(prettier@3.3.1):
     resolution: {integrity: sha512-1jhoyqQ6ovcOV3fqNPfJJFyyAQtZh5Mw2eSRS20Zd2oty5wq+cmpB3u7d9DoCe3JQrxCflBuSeWtqSv/2A5dig==}
     peerDependencies:
       prettier: '>=2.6.0'
     dependencies:
-      prettier: 3.2.5
+      prettier: 3.3.1
     dev: true
 
   /@types/minimist@1.2.2:
@@ -1302,8 +1302,8 @@ packages:
     hasBin: true
     dev: true
 
-  /prettier@3.2.5:
-    resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
+  /prettier@3.3.1:
+    resolution: {integrity: sha512-7CAwy5dRsxs8PHXT3twixW9/OEll8MLE0VRPCJyl7CkS6VHGPSlsVaWTiASPTyGyYRyApxlaWTzwUxVNrhcwDg==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
