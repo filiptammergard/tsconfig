@@ -17,10 +17,10 @@ importers:
         version: 2.27.12
       '@tammergard/prettier-config':
         specifier: 2.1.0
-        version: 2.1.0(prettier@3.5.1)
+        version: 2.1.0(prettier@3.5.2)
       prettier:
-        specifier: 3.5.1
-        version: 3.5.1
+        specifier: 3.5.2
+        version: 3.5.2
 
 packages:
 
@@ -319,8 +319,8 @@ packages:
     engines: {node: '>=10.13.0'}
     hasBin: true
 
-  prettier@3.5.1:
-    resolution: {integrity: sha512-hPpFQvHwL3Qv5AdRvBFMhnKo4tYxp0ReXiPn2bxkiohEX6mBeBwEpBSQTkD458RaaDKQMYSp4hX4UtfUTA5wDw==}
+  prettier@3.5.2:
+    resolution: {integrity: sha512-lc6npv5PH7hVqozBR7lkBNOGXV9vMwROAPlumdBkX0wTbbzPu/U1hk5yL8p2pt4Xoc+2mkT8t/sow2YrV/M5qg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -585,9 +585,9 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.18.0
 
-  '@tammergard/prettier-config@2.1.0(prettier@3.5.1)':
+  '@tammergard/prettier-config@2.1.0(prettier@3.5.2)':
     dependencies:
-      prettier: 3.5.1
+      prettier: 3.5.2
 
   '@types/node@12.20.55': {}
 
@@ -772,7 +772,7 @@ snapshots:
 
   prettier@2.8.8: {}
 
-  prettier@3.5.1: {}
+  prettier@3.5.2: {}
 
   queue-microtask@1.2.3: {}
 
