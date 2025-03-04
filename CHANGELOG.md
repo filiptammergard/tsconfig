@@ -1,5 +1,11 @@
 # @tammergard/tsconfig
 
+## 2.9.0
+
+### Minor Changes
+
+- 82cfc9b: Enable erasableSyntaxOnly option.
+
 ## 2.8.0
 
 ### Minor Changes
