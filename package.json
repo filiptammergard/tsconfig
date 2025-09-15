@@ -9,7 +9,7 @@
 		"review": "pnpm i --frozen-lockfile && pnpm format-check"
 	},
 	"devDependencies": {
-		"@changesets/cli": "2.29.6",
+		"@changesets/cli": "2.29.7",
 		"@tammergard/prettier-config": "2.1.0",
 		"prettier": "3.6.2"
 	},
