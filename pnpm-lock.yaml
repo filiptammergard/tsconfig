@@ -17,10 +17,10 @@ importers:
         version: 2.30.0
       '@tammergard/prettier-config':
         specifier: 2.1.0
-        version: 2.1.0(prettier@3.8.2)
+        version: 2.1.0(prettier@3.8.3)
       prettier:
-        specifier: 3.8.2
-        version: 3.8.2
+        specifier: 3.8.3
+        version: 3.8.3
 
 packages:
 
@@ -324,8 +324,8 @@ packages:
     engines: {node: '>=10.13.0'}
     hasBin: true
 
-  prettier@3.8.2:
-    resolution: {integrity: sha512-8c3mgTe0ASwWAJK+78dpviD+A8EqhndQPUBpNUIPt6+xWlIigCwfN01lWr9MAede4uqXGTEKeQWTvzb3vjia0Q==}
+  prettier@3.8.3:
+    resolution: {integrity: sha512-7igPTM53cGHMW8xWuVTydi2KO233VFiTNyF5hLJqpilHfmn8C8gPf+PS7dUT64YcXFbiMGZxS9pCSxL/Dxm/Jw==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -590,9 +590,9 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.20.1
 
-  '@tammergard/prettier-config@2.1.0(prettier@3.8.2)':
+  '@tammergard/prettier-config@2.1.0(prettier@3.8.3)':
     dependencies:
-      prettier: 3.8.2
+      prettier: 3.8.3
 
   '@types/node@12.20.55': {}
 
@@ -775,7 +775,7 @@ snapshots:
 
   prettier@2.8.8: {}
 
-  prettier@3.8.2: {}
+  prettier@3.8.3: {}
 
   quansync@0.2.11: {}
 
