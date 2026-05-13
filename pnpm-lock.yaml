@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       typescript:
-        specifier: '5'
+        specifier: 5 || 6
         version: 5.0.2
     devDependencies:
       '@changesets/cli':
