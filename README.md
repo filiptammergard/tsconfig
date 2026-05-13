@@ -35,7 +35,9 @@ in `@tammergard/tsconfig` if it's defined there.
 	"extends": "@tammergard/tsconfig",
 	"compilerOptions": {
 		"strict": false,
-		"baseUrl": "./src"
+		"paths": {
+			"~/*": ["./src/*"]
+		}
 	}
 }
 ```
