@@ -1,5 +1,11 @@
 # @tammergard/tsconfig
 
+## 2.10.0
+
+### Minor Changes
+
+- b0befe6: Allow TS 6
+
 ## 2.9.0
 
 ### Minor Changes
