@@ -7,15 +7,12 @@
 		"strict": true,
 
 		// modules
-		"module": "es2020",
+		"module": "esnext",
 		"moduleResolution": "bundler",
 		"resolveJsonModule": true,
 
 		// emit
 		"noEmit": true,
-
-		// javascript support
-		"allowJs": false,
 
 		// interop constraints
 		"erasableSyntaxOnly": true,
@@ -24,9 +21,8 @@
 		"isolatedModules": true,
 		"verbatimModuleSyntax": true,
 
-		// landguage and environment
-		"jsx": "react-jsx",
-		"lib": ["es2022", "dom", "dom.iterable"],
+		// language and environment
+		"lib": ["es2022"],
 		"target": "es2022",
 		"moduleDetection": "force",
 

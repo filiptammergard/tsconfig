@@ -14,12 +14,17 @@
 		"prettier": "3.8.3"
 	},
 	"peerDependencies": {
-		"typescript": "5 || 6"
+		"typescript": "6"
 	},
 	"files": [
-		"tsconfig.json"
+		"tsconfig.json",
+		"tsconfig.dom.json"
 	],
 	"main": "tsconfig.json",
+	"exports": {
+		".": "./tsconfig.json",
+		"./dom": "./tsconfig.dom.json"
+	},
 	"keywords": [
 		"tsconfig",
 		"typescript",
