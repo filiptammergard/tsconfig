@@ -1,6 +1,6 @@
 {
 	"name": "@tammergard/tsconfig",
-	"version": "2.10.0",
+	"version": "3.0.0",
 	"description": "A sharable TSconfig with personal preferences",
 	"scripts": {
 		"format": "prettier --write .",
