@@ -62,11 +62,13 @@ The most opinionated choices in the base config:
 - `strict`
 - `exactOptionalPropertyTypes`
 - `noFallthroughCasesInSwitch`
+- `noImplicitOverride`
+- `noImplicitReturns`
 - `noUncheckedIndexedAccess`
+- `noUncheckedSideEffectImports`
 - `erasableSyntaxOnly`
 - `verbatimModuleSyntax`
 - `isolatedModules`
-- `forceConsistentCasingInFileNames`
 - `moduleResolution: "bundler"`
 - `module: "esnext"`
 - `target: "es2022"`
