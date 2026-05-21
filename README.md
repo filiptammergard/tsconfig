@@ -1,26 +1,18 @@
 # @tammergard/tsconfig
 
-[![npm version](https://img.shields.io/npm/v/@tammergard/tsconfig.svg)](https://www.npmjs.com/package/@tammergard/tsconfig)
-
-A sharable TSconfig with personal preferences.
-
-## Requirements
-
-TypeScript 6 or later.
+A sharable TypeScript config with personal preferences. Requires TypeScript 6 or later.
 
 ## Installation
 
-Install this package as a dev dependency.
-
 ```bash
 # npm
-npm install @tammergard/tsconfig --save-dev
-
-# yarn
-yarn add @tammergard/tsconfig --dev
+npm install --save-dev @tammergard/tsconfig
 
 # pnpm
-pnpm add @tammergard/tsconfig --save-dev
+pnpm add -D @tammergard/tsconfig
+
+# bun
+bun add -d @tammergard/tsconfig
 ```
 
 ## Usage

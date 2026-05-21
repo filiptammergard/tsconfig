@@ -1,38 +1,21 @@
 {
 	"name": "@tammergard/tsconfig",
 	"version": "3.0.0",
-	"description": "A sharable TSconfig with personal preferences",
-	"scripts": {
-		"format": "prettier --write .",
-		"format-check": "prettier --check .",
-		"release": "pnpm changeset publish",
-		"review": "pnpm i --frozen-lockfile && pnpm format-check"
-	},
-	"devDependencies": {
-		"@changesets/cli": "2.31.0",
-		"@tammergard/prettier-config": "3.0.0",
-		"prettier": "3.8.3"
-	},
-	"peerDependencies": {
-		"typescript": "6"
-	},
-	"files": [
-		"tsconfig.json",
-		"tsconfig.dom.json"
-	],
-	"main": "tsconfig.json",
-	"exports": {
-		".": "./tsconfig.json",
-		"./dom": "./tsconfig.dom.json"
-	},
+	"description": "A sharable TypeScript config with personal preferences",
 	"keywords": [
 		"tsconfig",
 		"typescript",
-		"config"
+		"typescript-config",
+		"config",
+		"strict"
 	],
 	"homepage": "https://github.com/filiptammergard/tsconfig#readme",
 	"bugs": {
 		"url": "https://github.com/filiptammergard/tsconfig/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/filiptammergard/tsconfig.git"
 	},
 	"license": "MIT",
 	"author": {
@@ -40,13 +23,35 @@
 		"email": "filip+npm@tammergard.se",
 		"url": "https://tammergard.se"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/filiptammergard/tsconfig.git"
+	"exports": {
+		".": "./tsconfig.json",
+		"./dom": "./tsconfig.dom.json"
+	},
+	"main": "tsconfig.json",
+	"files": [
+		"tsconfig.json",
+		"tsconfig.dom.json"
+	],
+	"scripts": {
+		"format": "prettier --write .",
+		"format-check": "prettier --check .",
+		"release": "pnpm changeset publish",
+		"review": "pnpm install --frozen-lockfile && pnpm format-check"
+	},
+	"devDependencies": {
+		"@changesets/cli": "^2.31.0",
+		"@tammergard/prettier-config": "^3.0.0",
+		"prettier": "^3.8.3"
+	},
+	"peerDependencies": {
+		"typescript": ">=6"
+	},
+	"packageManager": "pnpm@10.33.2",
+	"engines": {
+		"node": ">=24"
 	},
 	"publishConfig": {
 		"access": "public",
 		"provenance": true
-	},
-	"packageManager": "pnpm@10.33.0"
+	}
 }
