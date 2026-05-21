@@ -9,17 +9,17 @@ importers:
   .:
     dependencies:
       typescript:
-        specifier: '6'
+        specifier: '>=6'
         version: 6.0.3
     devDependencies:
       '@changesets/cli':
-        specifier: 2.31.0
+        specifier: ^2.31.0
         version: 2.31.0
       '@tammergard/prettier-config':
-        specifier: 3.0.0
+        specifier: ^3.0.0
         version: 3.0.0(prettier@3.8.3)
       prettier:
-        specifier: 3.8.3
+        specifier: ^3.8.3
         version: 3.8.3
 
 packages:
