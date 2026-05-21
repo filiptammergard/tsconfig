@@ -1,6 +1,6 @@
 {
 	"name": "@tammergard/tsconfig",
-	"version": "3.0.0",
+	"version": "3.0.1",
 	"description": "A sharable TypeScript config with personal preferences",
 	"keywords": [
 		"tsconfig",
