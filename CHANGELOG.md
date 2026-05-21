@@ -1,5 +1,14 @@
 # @tammergard/tsconfig
 
+## 3.0.1
+
+### Patch Changes
+
+- 1bbad77: Align project configuration with other `@tammergard/*` packages: sort
+  `package.json` keys, declare `engines.node >= 24`, switch release workflow to
+  npm trusted publishing, and update the changesets schema URL to match the
+  actually installed version.
+
 ## 3.0.0
 
 ### Major Changes
