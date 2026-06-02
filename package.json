@@ -47,8 +47,12 @@
 		"typescript": ">=6"
 	},
 	"packageManager": "pnpm@10.33.2",
-	"engines": {
-		"node": ">=24"
+	"devEngines": {
+		"runtime": {
+			"name": "node",
+			"version": ">=24",
+			"onFail": "error"
+		}
 	},
 	"publishConfig": {
 		"access": "public",
