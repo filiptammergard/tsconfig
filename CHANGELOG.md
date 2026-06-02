@@ -1,5 +1,11 @@
 # @tammergard/tsconfig
 
+## 3.0.2
+
+### Patch Changes
+
+- 8b99306: Use `devEngines` instead of `engines` for the Node version requirement, so it applies to development only and no longer constrains consumers of the package.
+
 ## 3.0.1
 
 ### Patch Changes
