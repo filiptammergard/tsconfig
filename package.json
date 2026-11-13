@@ -39,9 +39,9 @@
 		"review": "pnpm install --frozen-lockfile && pnpm format-check"
 	},
 	"devDependencies": {
-		"@changesets/cli": "^3.0.0",
+		"@changesets/cli": "^3.0.3",
 		"@tammergard/prettier-config": "^3.0.2",
-		"prettier": "^3.9.6"
+		"prettier": "^3.10.1"
 	},
 	"peerDependencies": {
 		"typescript": ">=6"
